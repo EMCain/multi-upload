@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="./src/css/multiple_image_upload.css" rel="stylesheet">	 
+<link href="./assests/cropper/dist/cropper.css" rel="stylesheet">
+
+</head>
+<body>
+<p>This is a sample implementation of the <a href="https://www.github.com/emcain/multi-upload">multi-upload</a> plugin. Please see the README for more information on how to implement it.</p>
+
+<div id="uploads">
+The multi-upload plugin will go here. <br>
+If you are seeing this message in error, make sure you have JavaScript enabled. 
+</div>
+
+<p>Copyright (c) 2016 Emily Cain under The MIT License. <a href="https://github.com/EMCain/multi-upload/blob/master/LICENSE">Full license</a></p> 
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<script src="./assets/cropper/dist/cropper.js"></script>	
+<script src="./src/js/init.js"></script>  
+  
+<script>
+$(document).ready(function(){
+	// pass in ID of the div where the plugin will be located. 
+	initializeMultiUpload("uploads"); 
+});
+</script>
+</body>
+</html>
