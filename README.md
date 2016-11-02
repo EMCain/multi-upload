@@ -3,7 +3,7 @@ A jQuery plugin to upload and edit multiple files.
 
 Uses jQuery, Bootstrap for styling, and [https://github.com/fengyuanchen](Fengyuan Chen's Cropper) for image editing.
 
-The current version is 1.0. Dependency versions in current iteration of project (as of 12 June 2016):
+The current version is 1.0. Dependency versions in current iteration of project (as of 2 Nov 2016):
 * jQuery v3.1.1
 * Bootstrap v3.3.6
 * Cropper v2.3.2
